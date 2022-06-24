@@ -1,5 +1,5 @@
 {
-  "name": "yamadashy/laravel-blade-minify-directive",
+  "name": "tungpham42/laravel-blade-minify-directive",
   "description": "@minify directive to partially compress HTML.",
   "keywords": [
     "laravel",
@@ -7,12 +7,12 @@
     "minify",
     "directive"
   ],
-  "homepage": "https://github.com/yamadashy/laravel-blade-minify-directive",
+  "homepage": "https://github.com/tungpham42/laravel-blade-minify-directive",
   "license": "MIT",
   "authors": [
     {
-      "name": "Kazuki Yamada",
-      "email": "koukun0120@gmail.com"
+      "name": "Tung Pham",
+      "email": "tung.42@gmail.com"
     }
   ],
   "require": {
