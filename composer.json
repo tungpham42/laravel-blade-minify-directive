@@ -26,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Yamadashy\\MinifyDirective\\": "src"
+      "TungPham42\\MinifyDirective\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Yamadashy\\MinifyDirective\\Tests\\": "tests"
+      "TungPham42\\MinifyDirective\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -48,7 +48,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Yamadashy\\MinifyDirective\\MinifyDirectiveServiceProvider"
+        "TungPham42\\MinifyDirective\\MinifyDirectiveServiceProvider"
       ]
     }
   }
