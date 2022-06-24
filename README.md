@@ -19,7 +19,7 @@ If you want to apply it to a part of the page instead of the whole page, this li
 # Installation
 You can install the package via composer:
 ```
-composer require yamadashy/laravel-blade-minify-directive
+composer require tungpham42/laravel-blade-minify-directive
 ```
 
 # Usage
