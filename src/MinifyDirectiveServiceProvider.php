@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Yamadashy\MinifyDirective;
+namespace TungPham42\MinifyDirective;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
@@ -10,7 +10,7 @@ class MinifyDirectiveServiceProvider extends ServiceProvider
 {
 
     public const MINIFY_START_DIRECTIVE_COMPILED = '<?php ob_start(); ?>';
-    public const MINIFY_END_DIRECTIVE_COMPILED = '<?php echo \Yamadashy\MinifyDirective\Minifier::minify(ob_get_clean()); ?>';
+    public const MINIFY_END_DIRECTIVE_COMPILED = '<?php echo \TungPham42\MinifyDirective\Minifier::minify(ob_get_clean()); ?>';
 
     /**
      * Bootstrap the application services.
